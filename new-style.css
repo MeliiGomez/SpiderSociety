@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(3, 71, 218);
+}
+
+header{
+    background-color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 32px;
+    align-items: center;
+}
+
+header ul{
+    display: flex;
+    column-gap: 20px;
+    font-size: xx-large;
+}
+
+footer{
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-footer{
+    background-image: url("./SpiderVerse.jpg");
+    
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+
